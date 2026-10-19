@@ -1,0 +1,6 @@
+Field,PercentAgree_Pre,PercentAgree_Post,CohenKappa_Pre,CohenKappa_Post,NumDisagreements,NumResolved,MeanResolutionTime_min,Notes
+HasRecovered,95.0,100.0,0.730,1.000,1,1,NA,"Semantic mismatch between No and N/A when no recovery event existed; resolved by using N/A for no observed inactivity gap."
+WhyRecovered,100.0,100.0,NA,NA,0,0,NA,"Strong agreement because recovery explanations were grounded in specific post-gap commits and stated cautiously when causes were uncertain."
+ActivityPattern,85.0,100.0,0.757,1.000,3,3,NA,"Main challenge was distinguishing cyclical behavior from irregular bursts or a sustained decline."
+Currentstatus,90.0,100.0,0.765,1.000,2,2,NA,"Disagreements came from data-source and cutoff scope; resolved by consistently applying the default-branch GitHub activity window."
+RecentThemes,75.0,100.0,NA,NA,5,5,NA,"Most disagreement occurred here because theme labels depended on which latest-ten commit sample was used and how maintenance commits were categorized."
